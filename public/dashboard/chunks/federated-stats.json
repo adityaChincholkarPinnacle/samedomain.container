@@ -1,0 +1,1 @@
+{"sharedModules":[],"federatedModules":[{"remote":"dashboard","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./DashboardPage":["static/chunks/__federation_expose_DashboardPage.3e79d1a9a94cb0c5.js"]},"remoteModules":{}}]}

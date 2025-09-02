@@ -1,0 +1,281 @@
+{
+  "id": "remote2",
+  "name": "remote2",
+  "metaData": {
+    "name": "remote2",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "remote2"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "remote2",
+    "pluginVersion": "0.18.3",
+    "prefetchInterface": false,
+    "publicPath": "/_next/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/dynamic",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/dynamic",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "334-2efbf425bf0ede39.js",
+            "953-2cd13a6b2e71a823.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/head",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/head",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "368-139270ade284a58d.js",
+            "987-f7368a9cd494e582.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/image",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/image",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "965.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/link",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/link",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "106.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/router",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/router",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "715.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/script",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/script",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "133.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "remote2:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "342-d8ff121750318bda.js",
+            "961-7cea21865e636f21.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react/jsx-runtime",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "remote2:react/jsx-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "848-09aaa9cd3070b31b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./RemotePage"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "remote2:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "540-3d1f7a6f4927c9fc.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./RemotePage"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "shareScope": "default",
+      "version": "5.1.6",
+      "name": "styled-jsx",
+      "eager": false,
+      "id": "remote2:styled-jsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "197-b1df587b17d62c0f.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./RemotePage",
+      "id": "remote2:RemotePage",
+      "name": "RemotePage",
+      "requires": [
+        "react/jsx-runtime",
+        "react"
+      ],
+      "file": "src/pages/index.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_RemotePage-ca42db6aabd5c3cb.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"use strict";exports.id=447,exports.ids=[447],exports.modules={3026:(a,b,c)=>{c.r(b),c.d(b,{default:()=>e});var d=c(1995);function e(){return(0,d.jsx)("h1",{children:"My Remote App 2"})}c(3732)}};

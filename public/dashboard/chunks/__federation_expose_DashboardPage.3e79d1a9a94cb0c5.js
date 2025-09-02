@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdashboard=self.webpackChunkdashboard||[]).push([[141],{3119:(a,e,r)=>{r.r(e),r.d(e,{default:()=>h});var s=r(1995);function h(){return(0,s.jsx)("h1",{children:"Dashboard App Changes are Done"})}r(3732)}}]);

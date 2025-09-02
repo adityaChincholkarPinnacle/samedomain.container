@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdashboard=self.webpackChunkdashboard||[]).push([[141],{3119:(e,a,h)=>{h.r(a),h.d(a,{default:()=>d});var s=h(1995);function d(){return(0,s.jsxs)("div",{children:[(0,s.jsx)("h1",{children:"Dashboard App Changes are done"}),(0,s.jsx)("h2",{children:"Welcome to the New Dashboard Page"})]})}h(3732)}}]);

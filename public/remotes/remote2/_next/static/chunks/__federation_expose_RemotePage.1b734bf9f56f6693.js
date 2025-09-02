@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremote2=self.webpackChunkremote2||[]).push([[447],{3119:(e,r,t)=>{t.r(r),t.d(r,{default:()=>n});var u=t(1995);function n(){return(0,u.jsx)("h1",{children:"My Remote App 2"})}t(3732)}}]);

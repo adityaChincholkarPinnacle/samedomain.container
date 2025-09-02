@@ -1,0 +1,1 @@
+"use strict";exports.id=141,exports.ids=[141],exports.modules={3026:(a,b,c)=>{c.r(b),c.d(b,{default:()=>e});var d=c(1995);function e(){return(0,d.jsxs)("div",{children:[(0,d.jsx)("h1",{children:"Dashboard App Changes are done"}),(0,d.jsx)("h2",{children:"Welcome to the New Dashboard Page"})]})}c(3732)}};

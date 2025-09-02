@@ -1,0 +1,282 @@
+{
+  "id": "dashboard",
+  "name": "dashboard",
+  "metaData": {
+    "name": "dashboard",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "dashboard"
+    },
+    "remoteEntry": {
+      "name": "static/chunks/remoteEntry.js",
+      "path": "",
+      "type": "window"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "dashboard",
+    "pluginVersion": "0.18.3",
+    "prefetchInterface": false,
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "id": "dashboard:next/dynamic",
+      "name": "next/dynamic",
+      "version": "15.5.2",
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/334.35de68353a477c5c.js",
+            "static/chunks/953.6a392d44b2932f03.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/head",
+      "name": "next/head",
+      "version": "15.5.2",
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/368.138f4243cd59e280.js",
+            "static/chunks/987.e1de9ad6b8b6efde.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/image",
+      "name": "next/image",
+      "version": "15.5.2",
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/965.1aedfcef587a0a97.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/link",
+      "name": "next/link",
+      "version": "15.5.2",
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/106.76533406c3433e71.js",
+            "static/chunks/320.55eeac83f0169046.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/router",
+      "name": "next/router",
+      "version": "15.5.2",
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/715.c618f0d9055bb496.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:next/script",
+      "name": "next/script",
+      "version": "15.5.2",
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/133.dcb0f5f83befcc96.js",
+            "static/chunks/514.a2a3f0a81619496c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:react-dom/client",
+      "name": "react-dom/client",
+      "version": "19.1.0",
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.ea8eaec2059d8db3.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:react-dom",
+      "name": "react-dom",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.ea8eaec2059d8db3.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:react/jsx-runtime",
+      "name": "react/jsx-runtime",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.ea8eaec2059d8db3.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:react",
+      "name": "react",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.ea8eaec2059d8db3.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:styled-jsx/style",
+      "name": "styled-jsx/style",
+      "version": "5.1.6",
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/127.8af92617c29667a0.js",
+            "static/chunks/508.8af92617c29667a0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "dashboard:styled-jsx",
+      "name": "styled-jsx",
+      "version": "5.1.6",
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/297.3330234075928967.js",
+            "static/chunks/678.3330234075928967.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "dashboard:DashboardPage",
+      "name": "DashboardPage",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_DashboardPage.3e79d1a9a94cb0c5.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./DashboardPage"
+    }
+  ]
+}

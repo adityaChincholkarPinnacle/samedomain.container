@@ -1,0 +1,325 @@
+{
+  "id": "remote2",
+  "name": "remote2",
+  "metaData": {
+    "name": "remote2",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "remote2"
+    },
+    "remoteEntry": {
+      "name": "static/chunks/remoteEntry.js",
+      "path": "",
+      "type": "window"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "remote2",
+    "pluginVersion": "0.18.3",
+    "prefetchInterface": false,
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/dynamic",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/dynamic",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/334.9b4e0c232f61f9ab.js",
+            "static/chunks/953.a7bce22d36110cd7.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/head",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/head",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/368.0c8580d09debf7d5.js",
+            "static/chunks/987.777e5e0691d1c43f.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/image",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/image",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/965.0dbf2535dbe7a8ad.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/link",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/link",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/106.0001a24683f7aa66.js",
+            "static/chunks/320.e4260fb3c84ce2c2.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/router",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/router",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/715.987c4c244996051c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.5.2",
+      "shareScope": "default",
+      "name": "next/script",
+      "version": "15.5.2",
+      "eager": false,
+      "id": "remote2:next/script",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/133.bd371ca619201806.js",
+            "static/chunks/514.76f8f507afac82fe.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "id": "remote2:react-dom/client",
+      "requiredVersion": "^19.1.0",
+      "name": "react-dom/client",
+      "version": "19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.1e39eb08546e8426.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "remote2:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.1e39eb08546e8426.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react/jsx-runtime",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "remote2:react/jsx-runtime",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.1e39eb08546e8426.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./RemotePage"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "name": "react",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "remote2:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/framework.1e39eb08546e8426.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./RemotePage"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "shareScope": "default",
+      "version": "5.1.6",
+      "name": "styled-jsx/style",
+      "eager": false,
+      "id": "remote2:styled-jsx/style",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/127.0bfce0b91ac518ba.js",
+            "static/chunks/508.0bfce0b91ac518ba.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.1.6",
+      "shareScope": "default",
+      "version": "5.1.6",
+      "name": "styled-jsx",
+      "eager": false,
+      "id": "remote2:styled-jsx",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/chunks/297.f2b929fb731cb851.js",
+            "static/chunks/678.f2b929fb731cb851.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./RemotePage",
+      "id": "remote2:RemotePage",
+      "name": "RemotePage",
+      "requires": [
+        "react/jsx-runtime",
+        "react"
+      ],
+      "file": "src/pages/index.tsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/chunks/__federation_expose_RemotePage.1b734bf9f56f6693.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+(self.webpackChunkremote2=self.webpackChunkremote2||[]).push([[527],{},e=>{"function"==typeof e.x?e.x():console.warn("[Module Federation] __webpack_require__.x is not a function, skipping startup extension"),_N_E=Promise.all([e.f.consumes||function(e,n){},e.f.remotes||function(e,n){}].reduce((e,n)=>(n("527",e),e),[])).then(()=>e.X(0,[104,732,995],()=>e(e.s=5104)))}]);
