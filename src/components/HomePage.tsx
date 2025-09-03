@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { AuthModal } from './AuthModal';
 import { UserPayload } from '../lib/jwt';
 
@@ -105,18 +104,18 @@ export default function HomePage() {
                   You are successfully authenticated as {user?.email}
                 </p>
                 <div className="space-x-4">
-                  <Link
-                    href="/dashboard"
+                  <a
+                    href="https://samedomain-dashboard-pfbanvyln-aditya-s-projects-03b412df.vercel.app/"
                     className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 inline-block"
                   >
                     Go to Dashboard
-                  </Link>
-                  <Link
-                    href="/remote2"
+                  </a>
+                  <a
+                    href="https://samedomain-remote2.vercel.app/"
                     className="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 inline-block"
                   >
                     Go to Remote2
-                  </Link>
+                  </a>
                 </div>
               </div>
             ) : (
