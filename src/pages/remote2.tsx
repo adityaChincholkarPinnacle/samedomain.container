@@ -1,10 +1,11 @@
 "use client";
 import dynamic from "next/dynamic";
+import type { GetServerSideProps } from 'next';
 import { useAuthClient } from '../hooks/useAuthClient';
 import { AuthModal } from '../components/AuthModal';
 import { useState } from 'react';
 
-const Remote2Page = dynamic(() => import("remote2/Remote2Page"), {
+const Remote2Page = dynamic(() => import("remote2/RemotePage"), {
   ssr: false,
   loading: () => <div>Loading Remote2...</div>,
 });
@@ -48,3 +49,7 @@ export default function Remote2Route() {
 
   return <Remote2Page />;
 }
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  return { props: {} };
+};

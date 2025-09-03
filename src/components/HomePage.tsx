@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { AuthModal } from './AuthModal';
 import { UserPayload } from '../lib/jwt';
 
@@ -104,18 +105,18 @@ export default function HomePage() {
                   You are successfully authenticated as {user?.email}
                 </p>
                 <div className="space-x-4">
-                  <a
+                  <Link
                     href="/dashboard"
                     className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 inline-block"
                   >
                     Go to Dashboard
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/remote2"
                     className="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 inline-block"
                   >
                     Go to Remote2
-                  </a>
+                  </Link>
                 </div>
               </div>
             ) : (

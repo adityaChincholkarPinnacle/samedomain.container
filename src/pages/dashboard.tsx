@@ -1,5 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
+import type { GetServerSideProps } from 'next';
 import { useAuthClient } from '../hooks/useAuthClient';
 import { AuthModal } from '../components/AuthModal';
 import { useState } from 'react';
@@ -48,3 +49,7 @@ export default function DashboardRoute() {
 
   return <DashboardPage />;
 }
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  return { props: {} };
+};
