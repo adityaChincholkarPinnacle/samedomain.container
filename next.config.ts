@@ -9,8 +9,8 @@ module.exports = {
         name: "container", 
         filename: "static/chunks/remoteEntry.js",
         remotes: {
-          dashboard: `dashboard@http://localhost:3001/_next/static/${isServer ? "ssr" : "chunks"}/remoteEntry.js`,
-          remote2: `remote2@http://localhost:3002/_next/static/${isServer ? "ssr" : "chunks"}/remoteEntry.js`,
+          dashboard: `dashboard@https://samedomain-dashboard-plkiqkjnd-aditya-s-projects-03b412df.vercel.app/_next/static/${isServer ? "ssr" : "chunks"}/remoteEntry.js`,
+          remote2: `remote2@https://samedomain-remote2-of870l30h-aditya-s-projects-03b412df.vercel.app/_next/static/${isServer ? "ssr" : "chunks"}/remoteEntry.js`,
         },
         exposes: {},
         shared: {
