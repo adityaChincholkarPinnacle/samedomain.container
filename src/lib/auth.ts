@@ -1,12 +1,18 @@
 import { JWTUtils, UserPayload } from './jwt';
-import { prisma } from './db';
+import { supabaseAdmin } from './supabase';
 
 export class AuthService {
   static async register(email: string, password: string, name: string): Promise<{ user: UserPayload; token: string } | null> {
     try {
       // Check if user already exists
-      const existingUser = await prisma.user.findUnique({ where: { email } });
-      if (existingUser) {
+      const { data: existingUser, error: checkError } = await supabaseAdmin
+        .from('users')
+        .select('id')
+        .eq('email', email)
+        .single();
+
+      // If user exists (no error and data found)
+      if (existingUser && !checkError) {
         throw new Error('User already exists');
       }
 
@@ -14,13 +20,19 @@ export class AuthService {
       const hashedPassword = await JWTUtils.hashPassword(password);
 
       // Create user
-      const newUser = await prisma.user.create({
-        data: {
+      const { data: newUser, error } = await supabaseAdmin
+        .from('users')
+        .insert([{
           email,
           name,
-          passwordHash: hashedPassword,
-        },
-      });
+          password_hash: hashedPassword,
+        }])
+        .select()
+        .single();
+
+      if (error) {
+        throw error;
+      }
 
       // Generate token
       const userPayload: UserPayload = {
@@ -41,13 +53,18 @@ export class AuthService {
   static async login(email: string, password: string): Promise<{ user: UserPayload; token: string } | null> {
     try {
       // Find user
-      const user = await prisma.user.findUnique({ where: { email } });
-      if (!user) {
+      const { data: user, error } = await supabaseAdmin
+        .from('users')
+        .select('*')
+        .eq('email', email)
+        .single();
+
+      if (error || !user) {
         return null;
       }
 
       // Verify password
-      const isValidPassword = await JWTUtils.comparePassword(password, user.passwordHash);
+      const isValidPassword = await JWTUtils.comparePassword(password, user.password_hash);
       if (!isValidPassword) {
         return null;
       }
@@ -70,12 +87,13 @@ export class AuthService {
 
   static async getUserById(id: string): Promise<UserPayload | null> {
     try {
-      const user = await prisma.user.findUnique({
-        where: { id },
-        select: { id: true, email: true, name: true },
-      });
+      const { data: user, error } = await supabaseAdmin
+        .from('users')
+        .select('id, email, name')
+        .eq('id', id)
+        .single();
 
-      if (!user) {
+      if (error || !user) {
         return null;
       }
 

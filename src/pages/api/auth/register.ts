@@ -34,9 +34,25 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     });
   } catch (error) {
     console.error('Registration error:', error);
-    
+    // Conflict for existing user
     if (error instanceof Error && error.message === 'User already exists') {
       return res.status(409).json({ message: 'User already exists' });
+    }
+
+    // In development, surface more error details to aid debugging
+    const isDev = process.env.NODE_ENV !== 'production';
+    if (isDev) {
+      const err: any = error;
+      return res.status(500).json({
+        message: 'Internal server error',
+        error: {
+          message: err?.message,
+          name: err?.name,
+          code: err?.code,
+          details: err?.details,
+          hint: err?.hint,
+        },
+      });
     }
 
     return res.status(500).json({ message: 'Internal server error' });
