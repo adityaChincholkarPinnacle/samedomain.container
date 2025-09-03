@@ -41,7 +41,7 @@ export function LoginForm({ onSuccess, onSwitchToRegister }: LoginFormProps) {
       } else {
         setError('Invalid email or password');
       }
-    } catch (err) {
+    } catch {
       setError('Login failed. Please try again.');
     } finally {
       setLoading(false);
