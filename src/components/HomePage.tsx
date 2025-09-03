@@ -105,7 +105,6 @@ export default function HomePage() {
                   You are successfully authenticated as {user?.email}
                 </p>
                 <div className="space-x-4">
-                  <link rel="stylesheet" href="" />
                   <Link
                     href="/dashboard"
                     className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 inline-block"

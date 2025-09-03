@@ -42,16 +42,29 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     // In development, surface more error details to aid debugging
     const isDev = process.env.NODE_ENV !== 'production';
     if (isDev) {
-      const err: any = error;
+      type ErrInfo = {
+        message?: string;
+        name?: string;
+        code?: unknown;
+        details?: unknown;
+        hint?: unknown;
+      };
+
+      const info: ErrInfo = {};
+      if (error instanceof Error) {
+        info.message = error.message;
+        info.name = error.name;
+      }
+      if (typeof error === 'object' && error !== null) {
+        const e = error as Record<string, unknown>;
+        if (e.code !== undefined) info.code = e.code;
+        if (e.details !== undefined) info.details = e.details;
+        if (e.hint !== undefined) info.hint = e.hint;
+      }
+
       return res.status(500).json({
         message: 'Internal server error',
-        error: {
-          message: err?.message,
-          name: err?.name,
-          code: err?.code,
-          details: err?.details,
-          hint: err?.hint,
-        },
+        error: info,
       });
     }
 
